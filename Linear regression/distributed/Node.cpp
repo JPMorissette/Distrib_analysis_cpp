@@ -4,6 +4,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <iomanip>
 
 using namespace Eigen;
 using namespace std;
@@ -78,6 +79,8 @@ void Node::writeDataToCSV(const MatrixXd &xtx, const MatrixXd &yty, const Matrix
     if (file.is_open()) {
         file << "\"xtx\",\"yty\",\"xty\"" << endl;
         
+        file << std::fixed << std::setprecision(16);
+
         int max_size = max({xtx.rows(), yty.rows(), xty.rows()});
 
         for (int i = 0; i < max_size; ++i) {
