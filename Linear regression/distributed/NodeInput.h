@@ -3,7 +3,7 @@
 #ifndef NODEINPUT_H
 #define NODEINPUT_H
 
-#include <Eigen/Dense>
+#include "Eigen/Dense"
 #include <string>
 
 using namespace Eigen;
