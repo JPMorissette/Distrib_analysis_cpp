@@ -1,8 +1,9 @@
 #ifndef NODE_H
 #define NODE_H
 
-#include <Eigen/Dense>
+#include "Eigen/Dense"
 #include <string>
+#include <vector>
 
 using namespace Eigen;
 using namespace std;
