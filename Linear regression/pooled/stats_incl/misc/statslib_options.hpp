@@ -177,8 +177,8 @@ namespace stats
 // Eigen Options
 
 #ifdef STATS_ENABLE_EIGEN_WRAPPERS
-    #include "Eigen/Dense"
     #include <iostream>
+    #include "Eigen/Dense"
 
     template<typename eT, int iTr, int iTc>
     using EigenMat = Eigen::Matrix<eT,iTr,iTc>;
