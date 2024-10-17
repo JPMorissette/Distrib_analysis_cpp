@@ -1,6 +1,6 @@
 # Distrib_analysis_cpp
 Distributed analysis for linear and logistic regression implemented in C++
 
-(!)
-Please note that currently, only the folder 'Linear Regression'/distributed may be working (still hasn't been reviewed).
-(!)
+All implementations give results similar (since precision used may vary) to those obtained from thr R implementation.
+
+(!) Please note that distributed implementations cannot currently be used on a node basis (!)
