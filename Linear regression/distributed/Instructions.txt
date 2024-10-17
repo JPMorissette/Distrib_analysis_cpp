@@ -1,0 +1,4 @@
+You may need to download and add the Following libraries:
+- gcem (https://github.com/kthohr/gcem) 
+- stats (https://github.com/kthohr/stats/tree/master)
+- Eigen (https://gitlab.com/libeigen/eigen)
