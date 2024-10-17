@@ -5,8 +5,8 @@
 #include <sstream>
 #include <vector>
 #include <string>
-#include <Eigen/Dense>
-#include <stats.hpp>
+#include "Eigen/Dense"
+#include "stats.hpp"
 
 using namespace std;
 using namespace Eigen;
