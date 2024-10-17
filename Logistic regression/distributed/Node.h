@@ -1,7 +1,7 @@
 #ifndef NODE_H
 #define NODE_H
 
-#include <Eigen/Dense>
+#include "Eigen/Dense"
 #include <string>
 
 using namespace Eigen;

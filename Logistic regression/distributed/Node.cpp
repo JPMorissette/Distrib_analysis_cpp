@@ -1,6 +1,6 @@
 #include "Node.h"
 #include <cmath>
-#include <stats.hpp>
+#include "stats.hpp"
 #include <iostream>
 #include <fstream>
 #include <string>
