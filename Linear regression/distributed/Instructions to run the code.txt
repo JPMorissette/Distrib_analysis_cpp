@@ -1,0 +1,4 @@
+1) Open terminal.
+2) Change directory until you reach 'Linear regression'/Distributed as your current working directory (using the cd command).
+3) use the command g++ main.cpp Node.cpp NodeInput.cpp (requires installation of g++). This will create an executable file.
+4) Run a.exe. This will create some excel files with the desired outputs.
